@@ -20,7 +20,7 @@
 	- 2016-02-24 (v1), 2016-11-04 (v4)
 - QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
     - Tapabrata Ghosh
-    - 2017-91-09 (v1), 2017-01-12 (v2)
+    - 2017-01-09 (v1), 2017-01-12 (v2)
 - Some slices
 	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
 - [Home of Song Han](https://stanford.edu/~songhan/)
