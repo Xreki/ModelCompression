@@ -22,9 +22,19 @@
 - QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
     - Tapabrata Ghosh
     - 2017-01-09 (v1), 2017-01-12 (v2)
+- Pruning Convolutional Neural Networks for Resource Efficient Inference [[ICLR 2017](https://openreview.net/pdf?id=SJGCiw5gl)]
+    - Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, Jan Kautz
+    - 2016-11-05
+- Faster CNNs with Direct Sparse Convolutions and Guided Pruning [[ICLR 2017](https://openreview.net/pdf?id=rJPcZ3txx)]
+    - Jongsoo Park, Sheng Li, Wei Wen, Ping Tak Peter Tang, Hai Li, Yiran Chen, Pradeep Dubey
+    - 2016-11-04
+- Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
+    - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
+    - 2016-11-04
 - Some slices
 	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
 - [Home of Song Han](https://stanford.edu/~songhan/)
+
 
 ## Quantilization
 
@@ -41,12 +51,13 @@
 - On The Compression Of Recurrent Neural Networks With An Application To LVCSR Acoustic Modeling For Embedded Speech Recognition [Google] [[ICASSP 2016](https://arxiv.org/pdf/1603.08042.pdf)]
 	- Rohit Prabhanalkar, Ouais Alsharif, Autoine Bruguier
 
+
 ### Q-CNN
 - Quantized Convolutional Neural Networks for Mobile Devices [[CVPR 2016](https://arxiv.org/abs/1512.06473)] [[codes](https://github.com/jiaxiang-wu/quantized-cnn)]
 	- Jiaxiang Wu, Cong Leng, Yuhang Wang
 	- 2015-12-21 (v1), 2016-05-16 (v3)
 
-### Others
+### Low Precision
 - Deep Learning with Limited Numerical Precision [IBM] [[arxiv](https://arxiv.org/abs/1502.02551)]
 	- Suyog Gupta, Ankur Agrawal, Kailash Gopalakrishnan, Pritish Narayanan
 	- 2015-02-09 (v1)
@@ -62,6 +73,9 @@
 - Deep Learning with low Precision by Half-wave Gaussian Quantization [[arxiv](https://arxiv.org/abs/1702.00953)]
 	- Zhaowei Cai, Xiaodong He, Jian Sun, ...
 	- 2017-02-03 (v1)
+- Incremental Network Quantization: Towards Lossless CNNs with Low-precision Weights [[ICLR 2017](https://openreview.net/pdf?id=HyQJ-mclg)]
+    - Aojun Zhou, Anbang Yao, Yiwen Guo, Lin Xu, Yurong Chen
+    - 2016-11-04
 
 ## Distilling
 - Distilling the Knowledge in a Neural Network [[NIPS 2014 Deep Learning Workshop](Distilling the Knowledge in a Neural Network)]
@@ -74,4 +88,13 @@
 - Dynamic Network Surgery for Efficient DNNS [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)]
 	- Yiwen Guo, Anbang Yao, Yurong Chen
 	- 2016-08-16 (v1), 2016-11-10 (v2)
+- DeepRebirth: A General Approach for Accelerating Deep Neural Network Execution on Mobile Devices [[ICLR 2017](https://openreview.net/pdf?id=SkwSJ99ex)]
+    - Dawei Li, Xiaolong Wang, Deguang Kong, Mooi Choo Chuah
+    - 2016-11-05
+- Tartan: Accelerating Fully-Connected and Convolutional Layers in Deep Learning Networks by Exploiting Numerical Precision Variability [[ICLR 2017](https://openreview.net/pdf?id=Hy-lMNqex)]
+    - Alberto Delmás Lascorz, Sayeh Sharify, Patrick Judd, Andreas Moshovos
+    - 2016-11-05
+- FastText.zip: Compressing text classification models [[ICLR 2017](https://openreview.net/pdf?id=SJc1hL5ee)]
+    - Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, Herve Jegou, Tomas Mikolov
+    - 2016-11-05
  
