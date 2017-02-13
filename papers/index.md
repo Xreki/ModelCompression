@@ -3,6 +3,7 @@
 - Learning both Weights and Connections for Efficient Neural Networks [[NIPS 2015](https://arxiv.org/abs/1506.02626)]
 	- Song Han, Jeff Pool, John Tran, William J. Dally
 	- 2015-06-08 (v1), 2015-10-30 (v3)
+	- [detail](deep-compression/test.txt)
 - Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding [[ICLR 2016](https://arxiv.org/abs/1510.00149)]
 	- Song Han, Huizi Mao, William J. Dally
 	- 2015-10-01 (v1), 2016-02-15 (v5)
