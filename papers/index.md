@@ -28,6 +28,7 @@
 - Faster CNNs with Direct Sparse Convolutions and Guided Pruning [[ICLR 2017](https://openreview.net/pdf?id=rJPcZ3txx)]
     - Jongsoo Park, Sheng Li, Wei Wen, Ping Tak Peter Tang, Hai Li, Yiran Chen, Pradeep Dubey
     - 2016-11-04
+    - [[Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)]
 - Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
     - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
     - 2016-11-04
