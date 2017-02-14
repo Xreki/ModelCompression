@@ -22,18 +22,6 @@
 - QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
     - Tapabrata Ghosh
     - 2017-01-09 (v1), 2017-01-12 (v2)
-<<<<<<< .mine
-- The Incredible Shrinking Neural Network: New Prespectives on Learning Representations Through The Lens of Pruning [[arxiv](https://arxiv.org/abs/1701.04465)]
-	- Nikolas Wolfe, Aditya Sharma, Lukas Drude, ...
-	- 2017-01-16 (v1)
-
-
-
-
-
-
-
-=======
 - Pruning Convolutional Neural Networks for Resource Efficient Inference [[ICLR 2017](https://openreview.net/pdf?id=SJGCiw5gl)]
     - Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, Jan Kautz
     - 2016-11-05
@@ -44,7 +32,9 @@
 - Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
     - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
     - 2016-11-04
->>>>>>> .theirs
+- The Incredible Shrinking Neural Network: New Prespectives on Learning Representations Through The Lens of Pruning [[arxiv](https://arxiv.org/abs/1701.04465)]
+	- Nikolas Wolfe, Aditya Sharma, Lukas Drude, ...
+	- 2017-01-16 (v1)
 - Some slices
 	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
 - [Home of Song Han](https://stanford.edu/~songhan/)
@@ -87,15 +77,13 @@
 - Deep Learning with low Precision by Half-wave Gaussian Quantization [[arxiv](https://arxiv.org/abs/1702.00953)]
 	- Zhaowei Cai, Xiaodong He, Jian Sun, ...
 	- 2017-02-03 (v1)
-<<<<<<< .mine
-- Two-Bit Networks for Deep Learning on Resource-Constrained Embedded Devices [[arxiv](https://arxiv.org/abs/1701.00485)]
-	- Wenjia Meng, Zonghua Gu, Ming Zhang, ...
-	- 2017-01-02 (v1), 2017-01-04 (v2)
-=======
 - Incremental Network Quantization: Towards Lossless CNNs with Low-precision Weights [[ICLR 2017](https://openreview.net/pdf?id=HyQJ-mclg)]
     - Aojun Zhou, Anbang Yao, Yiwen Guo, Lin Xu, Yurong Chen
     - 2016-11-04
->>>>>>> .theirs
+- Two-Bit Networks for Deep Learning on Resource-Constrained Embedded Devices [[arxiv](https://arxiv.org/abs/1701.00485)]
+	- Wenjia Meng, Zonghua Gu, Ming Zhang, ...
+	- 2017-01-02 (v1), 2017-01-04 (v2)
+
 
 ## Distilling
 - Distilling the Knowledge in a Neural Network [[NIPS 2014 Deep Learning Workshop](Distilling the Knowledge in a Neural Network)]
@@ -113,18 +101,6 @@
 - Dynamic Network Surgery for Efficient DNNS [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)]
 	- Yiwen Guo, Anbang Yao, Yurong Chen
 	- 2016-08-16 (v1), 2016-11-10 (v2)
-<<<<<<< .mine
-- Varitional Dropout Sparsifies Deep Neural Networks [[arxiv](https://arxiv.org/abs/1701.05369)]
-	- Dmitry Molchanov, Arsenii Ashukha, Dmitry Vetrov
-	- 2017-01-19 (v1)
-- Compression of Deep Neural Networks for Image Instance Retrieval [[DCC 2017](https://arxiv.org/abs/1701.04923)]
-	- Vijay Chandrasekhar, Jie Lin, Qianli Liao, ...
-	- 2017-01-18
-
-
-
-
-=======
 - DeepRebirth: A General Approach for Accelerating Deep Neural Network Execution on Mobile Devices [[ICLR 2017](https://openreview.net/pdf?id=SkwSJ99ex)]
     - Dawei Li, Xiaolong Wang, Deguang Kong, Mooi Choo Chuah
     - 2016-11-05
@@ -134,5 +110,8 @@
 - FastText.zip: Compressing text classification models [[ICLR 2017](https://openreview.net/pdf?id=SJc1hL5ee)]
     - Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, Herve Jegou, Tomas Mikolov
     - 2016-11-05
- 
->>>>>>> .theirs
+- Varitional Dropout Sparsifies Deep Neural Networks [[arxiv](https://arxiv.org/abs/1701.05369)]
+	- Dmitry Molchanov, Arsenii Ashukha, Dmitry Vetrov
+	- 2017-01-19 (v1)
+- Compression of Deep Neural Networks for Image Instance Retrieval [[DCC 2017](https://arxiv.org/abs/1701.04923)]
+	- Vijay Chandrasekhar, Jie Lin, Qianli Liao, ...
