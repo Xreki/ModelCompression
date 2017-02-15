@@ -1,9 +1,9 @@
-## Deep Compression
+## Pruning
 
-- Learning both Weights and Connections for Efficient Neural Networks [[NIPS 2015](https://arxiv.org/abs/1506.02626)]
+### Deep Compression
+- Learning both Weights and Connections for Efficient Neural Networks [[NIPS 2015](https://arxiv.org/abs/1506.02626)] [[notes](pruning/deep-compression/test.txt)]
 	- Song Han, Jeff Pool, John Tran, William J. Dally
 	- 2015-06-08 (v1), 2015-10-30 (v3)
-	- [detail](deep-compression/test.txt)
 - Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding [[ICLR 2016](https://arxiv.org/abs/1510.00149)]
 	- Song Han, Huizi Mao, William J. Dally
 	- 2015-10-01 (v1), 2016-02-15 (v5)
@@ -19,26 +19,34 @@
 - SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size [[arxiv](https://arxiv.org/abs/1602.07360)]
 	- Forrest N. landola, Song Han, Matthew W. Moskewicz, ...
 	- 2016-02-24 (v1), 2016-11-04 (v4)
+- Some slices
+	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
+- [Home of Song Han](https://stanford.edu/~songhan/)
+
+### Sparsity
+- Learning Structured Sparsity in Deep Neural Network [[NIPS 2016](https://arxiv.org/abs/1608.03665)]
+	- Wei Wen, Chupeng Wu, Yandan Wang, ...
+	- 2016-08-12 (v1), 2016-10-18 (v4)
+	- group-wise sparsity patterns
+- Faster CNNs with Direct Sparse Convolutions and Guided Pruning [[ICLR 2017](https://openreview.net/pdf?id=rJPcZ3txx)] [[notes](pruning/sparsity/Faster_CNNs_with_Direct_Sparse_Convolutions_and_Guided_Pruning.md)] [[github](https://github.com/IntelLabs/SkimCaffe)]
+    - Jongsoo Park, Sheng Li, Wei Wen, Ping Tak Peter Tang, Hai Li, Yiran Chen, Pradeep Dubey
+    - 2016-11-04
+    - Pruning CNNs; AlexNet: 7.3x on Intel Atom; 3.4x on Intel Xeon; 3.1x on Knights Landing; no accuracy drop
+    - [Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)
+
+### Others
+- Dynamic Network Surgery for Efficient DNNS [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)]
+	- Yiwen Guo, Anbang Yao, Yurong Chen
+	- 2016-08-16 (v1), 2016-11-10 (v2)
 - QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
     - Tapabrata Ghosh
     - 2017-01-09 (v1), 2017-01-12 (v2)
 - Pruning Convolutional Neural Networks for Resource Efficient Inference [[ICLR 2017](https://openreview.net/pdf?id=SJGCiw5gl)]
     - Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, Jan Kautz
     - 2016-11-05
-- Faster CNNs with Direct Sparse Convolutions and Guided Pruning [[ICLR 2017](https://openreview.net/pdf?id=rJPcZ3txx)]
-    - Jongsoo Park, Sheng Li, Wei Wen, Ping Tak Peter Tang, Hai Li, Yiran Chen, Pradeep Dubey
-    - 2016-11-04
-    - [[Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)]
-- Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
-    - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
-    - 2016-11-04
 - The Incredible Shrinking Neural Network: New Prespectives on Learning Representations Through The Lens of Pruning [[arxiv](https://arxiv.org/abs/1701.04465)]
 	- Nikolas Wolfe, Aditya Sharma, Lukas Drude, ...
 	- 2017-01-16 (v1)
-- Some slices
-	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
-- [Home of Song Han](https://stanford.edu/~songhan/)
-
 
 ## Quantilization
 
@@ -84,23 +92,28 @@
 	- Wenjia Meng, Zonghua Gu, Ming Zhang, ...
 	- 2017-01-02 (v1), 2017-01-04 (v2)
 
+### Others
+- Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
+    - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
+    - 2016-11-04
+
 
 ## Distilling
-- Distilling the Knowledge in a Neural Network [[NIPS 2014 Deep Learning Workshop](Distilling the Knowledge in a Neural Network)]
+- Distilling the Knowledge in a Neural Network [[NIPS 2014 Deep Learning Workshop](https://arxiv.org/abs/1503.02531)]
 	- Geoffrey Hinton, Oriol Vinyals, Jeff Dean
 	- 2015-03-09 (v1)
 - Face model compression by distilling knowledge from neurons [[AAAI 2016](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11977/12130)]
 	- Ping Luo, Zhenyao Zhu, Ziwei Liu
 
 ## Decomposition
+- Speeding up Convolutional Neural Networks Using Fine-tuned CP-Decompositon [[ICLR 2015](https://arxiv.org/abs/1412.6553)]
+	- Vadim Lebedev, Victor Lempitsky
+	- 2014-12-19 (v1), 2015-04-24 (v3)
 - CP-decomposition with Tensor Power Method for Convolutional Neural Networks Compression [[BigComp 2017](https://arxiv.org/abs/1701.07148)]
 	- Marcella Astrid, Seung-lk Lee
 	- 2017-01-25 (v1)
 
 ## Others
-- Dynamic Network Surgery for Efficient DNNS [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)]
-	- Yiwen Guo, Anbang Yao, Yurong Chen
-	- 2016-08-16 (v1), 2016-11-10 (v2)
 - DeepRebirth: A General Approach for Accelerating Deep Neural Network Execution on Mobile Devices [[ICLR 2017](https://openreview.net/pdf?id=SkwSJ99ex)]
     - Dawei Li, Xiaolong Wang, Deguang Kong, Mooi Choo Chuah
     - 2016-11-05
