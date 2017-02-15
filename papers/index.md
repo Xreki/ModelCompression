@@ -1,4 +1,4 @@
-## Pruning
+# Pruning
 
 ### Deep Compression
 - Learning both Weights and Connections for Efficient Neural Networks [[NIPS 2015](https://arxiv.org/abs/1506.02626)] [[notes](pruning/deep-compression/test.txt)]
@@ -48,7 +48,7 @@
 	- Nikolas Wolfe, Aditya Sharma, Lukas Drude, ...
 	- 2017-01-16 (v1)
 
-## Quantilization
+# Quantilization
 
 ### Fixed-precision
 - Improving the speed of neural networks on CPUs [Google] [[NIPS 2011's workshop](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/37631.pdf)]
@@ -98,14 +98,14 @@
     - 2016-11-04
 
 
-## Distilling
+# Distilling
 - Distilling the Knowledge in a Neural Network [[NIPS 2014 Deep Learning Workshop](https://arxiv.org/abs/1503.02531)]
 	- Geoffrey Hinton, Oriol Vinyals, Jeff Dean
 	- 2015-03-09 (v1)
 - Face model compression by distilling knowledge from neurons [[AAAI 2016](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11977/12130)]
 	- Ping Luo, Zhenyao Zhu, Ziwei Liu
 
-## Decomposition
+# Decomposition
 - Speeding up Convolutional Neural Networks Using Fine-tuned CP-Decompositon [[ICLR 2015](https://arxiv.org/abs/1412.6553)]
 	- Vadim Lebedev, Victor Lempitsky
 	- 2014-12-19 (v1), 2015-04-24 (v3)
@@ -113,7 +113,7 @@
 	- Marcella Astrid, Seung-lk Lee
 	- 2017-01-25 (v1)
 
-## Others
+# Others
 - DeepRebirth: A General Approach for Accelerating Deep Neural Network Execution on Mobile Devices [[ICLR 2017](https://openreview.net/pdf?id=SkwSJ99ex)]
     - Dawei Li, Xiaolong Wang, Deguang Kong, Mooi Choo Chuah
     - 2016-11-05
