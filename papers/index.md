@@ -37,9 +37,10 @@
     - [Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)
 
 ### Others
-- Dynamic Network Surgery for Efficient DNNS [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)]
+- Dynamic Network Surgery for Efficient DNNs [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)] [[notes](pruning/others/Dynamic_Network_Surgery_for_Efficient_DNNs.md)] [[github](https://github.com/yiwenguo/Dynamic-Network-Surgery)]
 	- Yiwen Guo, Anbang Yao, Yurong Chen
 	- 2016-08-16 (v1), 2016-11-10 (v2)
+	- compress the number of parameters: LeNet-5, 108x; AlexNet, 17.7x; without any accuracy loss
 - QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
     - Tapabrata Ghosh
     - 2017-01-09 (v1), 2017-01-12 (v2)
@@ -130,3 +131,7 @@
 	- 2017-01-19 (v1)
 - Compression of Deep Neural Networks for Image Instance Retrieval [[DCC 2017](https://arxiv.org/abs/1701.04923)]
 	- Vijay Chandrasekhar, Jie Lin, Qianli Liao, ...
+- LightRNN: Memory and Computation-Efficient Recurrent Neural Networks [NIPS 2016] [[blog](http://www.msra.cn/zh-cn/news/blogs/2016/12/lightrnn-20161228.aspx)]
+	- Xiang Li, Tao Qin, Jian Yang, ...
+
+
