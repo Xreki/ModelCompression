@@ -24,14 +24,16 @@
 - [Home of Song Han](https://stanford.edu/~songhan/)
 
 ### Sparsity
-- Learning Structured Sparsity in Deep Neural Network [[NIPS 2016](https://arxiv.org/abs/1608.03665)]
+- Sparse convolutional neural network [CVPR 2015]
+	- sparsity regularization, l1-norm
+- Learning Structured Sparsity in Deep Neural Network [[NIPS 2016](https://arxiv.org/abs/1608.03665)] [[notes](pruning/sparsity/Learning_Structured_Sparsity_in_Deep_Neural_Networks.md)] [[github](https://github.com/wenwei202/caffe/tree/scnn)]
 	- Wei Wen, Chupeng Wu, Yandan Wang, ...
 	- 2016-08-12 (v1), 2016-10-18 (v4)
-	- group-wise sparsity patterns
+	- group-wise sparsity patterns; Structured Sparsity Learning (SSL), group Lasso regularization; 5.1x and 3.1x speedups of convolutional layer computation of AlexNet against CPU and GPU
 - Faster CNNs with Direct Sparse Convolutions and Guided Pruning [[ICLR 2017](https://openreview.net/pdf?id=rJPcZ3txx)] [[notes](pruning/sparsity/Faster_CNNs_with_Direct_Sparse_Convolutions_and_Guided_Pruning.md)] [[github](https://github.com/IntelLabs/SkimCaffe)]
     - Jongsoo Park, Sheng Li, Wei Wen, Ping Tak Peter Tang, Hai Li, Yiran Chen, Pradeep Dubey
     - 2016-11-04
-    - Pruning CNNs; AlexNet: 7.3x on Intel Atom; 3.4x on Intel Xeon; 3.1x on Knights Landing; no accuracy drop
+    - Pruning CNNs; AlexNet: 7.3x on Intel Atom; 3.4x on Intel Xeon; 3.1x on Knights Landing; non-zero proportion 0.09; no accuracy drop
     - [Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)
 
 ### Others
