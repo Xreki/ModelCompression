@@ -17,7 +17,7 @@ specific sparsity structures, thus limiting the achievable sparsity levels.
 
 ## 主要贡献
 - a highly efficient direct sparse convolution design formulated as sparse-matrix-dense-matrix multiplication with the dense matrix columns generated on-the -fly from a signle column vector
-- 直接稀疏卷积的设计，称之为sparse-matrix-dense-matrix multiplication，其中抽魔矩阵的列是计算的时候从一个列向量生成的
+- 直接稀疏卷积的设计，称之为sparse-matrix-dense-matrix multiplication，其中稠密矩阵的列是计算的时候从一个列向量生成的
 - a performance model to elucidate when and how best to use sparse convolutions on different computer architectures and at different CNN layers
 - 一个性能模型，可以针对不同的架构、不同的模型给出什么时候、怎么样最好地使用稀疏卷积。
 	- 基于roofline model。
@@ -36,4 +36,10 @@ specific sparsity structures, thus limiting the achievable sparsity levels.
 
 ## Guided Sparsity Learning (GSL) pruning algorithm
 
+
+## Experiments' Result
+
+- Xeon E5-2697 v4 (BDW): 3.4x加速，非零元比例x=0.09
+- Xeon Phi 7250 (KNL): 3.1x加速，非零元比例x=0.09
+- Intel C2750 (Atom): 7.3x加速，非零元比例x=0.09
 
