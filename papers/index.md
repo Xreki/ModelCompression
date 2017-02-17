@@ -133,6 +133,6 @@
 	- Vijay Chandrasekhar, Jie Lin, Qianli Liao, ...
 - LightRNN: Memory and Computation-Efficient Recurrent Neural Networks [NIPS 2016] [[blog](http://www.msra.cn/zh-cn/news/blogs/2016/12/lightrnn-20161228.aspx)]
 	- Xiang Li, Tao Qin, Jian Yang, ...
-－Soft Weight-Sharing for Neural Network Compression [[ICLR 2017](https://arxiv.org/pdf/1702.04008)]
+- Soft Weight-Sharing for Neural Network Compression [[ICLR 2017](https://arxiv.org/pdf/1702.04008)]
     - Karen Ullrich, Edward Meeds, Max Welling
 
