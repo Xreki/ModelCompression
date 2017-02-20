@@ -131,7 +131,8 @@
 	- 2017-01-19 (v1)
 - Compression of Deep Neural Networks for Image Instance Retrieval [[DCC 2017](https://arxiv.org/abs/1701.04923)]
 	- Vijay Chandrasekhar, Jie Lin, Qianli Liao, ...
-- LightRNN: Memory and Computation-Efficient Recurrent Neural Networks [NIPS 2016] [[blog](http://www.msra.cn/zh-cn/news/blogs/2016/12/lightrnn-20161228.aspx)]
+- LightRNN: Memory and Computation-Efficient Recurrent Neural Networks [Microsoft] [[NIPS 2016](https://arxiv.org/abs/1610.09893)] [[blog](http://www.msra.cn/zh-cn/news/blogs/2016/12/lightrnn-20161228.aspx)]
 	- Xiang Li, Tao Qin, Jian Yang, ...
+	- 2016-10-31 (v1)
 
 
