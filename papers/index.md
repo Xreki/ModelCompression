@@ -134,5 +134,7 @@
 - LightRNN: Memory and Computation-Efficient Recurrent Neural Networks [Microsoft] [[NIPS 2016](https://arxiv.org/abs/1610.09893)] [[blog](http://www.msra.cn/zh-cn/news/blogs/2016/12/lightrnn-20161228.aspx)]
 	- Xiang Li, Tao Qin, Jian Yang, ...
 	- 2016-10-31 (v1)
+- Soft Weight-Sharing for Neural Network Compression [[ICLR 2017](https://arxiv.org/pdf/1702.04008)]
+    - Karen Ullrich, Edward Meeds, Max Welling
 
 
