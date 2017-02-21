@@ -118,6 +118,7 @@
 - Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications [[arixv](https://arxiv.org/abs/1511.06530)]
     - Yong-Deok Kim, Eunhyeok Park, Sungjoo Yoo, Taelim Choi, Lu Yang, Dongjun Shin
     - 2016-02-24 (v2)
+
 # Others
 - DeepRebirth: A General Approach for Accelerating Deep Neural Network Execution on Mobile Devices [[ICLR 2017](https://openreview.net/pdf?id=SkwSJ99ex)]
     - Dawei Li, Xiaolong Wang, Deguang Kong, Mooi Choo Chuah
