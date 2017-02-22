@@ -35,7 +35,10 @@
     - 2016-11-04
     - Pruning CNNs; AlexNet: 7.3x on Intel Atom; 3.4x on Intel Xeon; 3.1x on Knights Landing; non-zero proportion 0.09; no accuracy drop
     - [Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)
-
+- The Power of Sparsity in Convolutional Neural Networks [[Google][arxiv](https://arxiv.org/pdf/1702.06257)]
+    - Soravit Changpinyo, Mark Sandler, Andrey Zhmoginov
+    - 2017-02-21
+    
 ### Others
 - Dynamic Network Surgery for Efficient DNNs [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)] [[notes](pruning/others/Dynamic_Network_Surgery_for_Efficient_DNNs.md)] [[github](https://github.com/yiwenguo/Dynamic-Network-Surgery)]
 	- Yiwen Guo, Anbang Yao, Yurong Chen
