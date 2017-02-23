@@ -44,9 +44,6 @@
 	- Yiwen Guo, Anbang Yao, Yurong Chen
 	- 2016-08-16 (v1), 2016-11-10 (v2)
 	- compress the number of parameters: LeNet-5, 108x; AlexNet, 17.7x; without any accuracy loss
-- QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
-    - Tapabrata Ghosh
-    - 2017-01-09 (v1), 2017-01-12 (v2)
 - Pruning Convolutional Neural Networks for Resource Efficient Inference [[ICLR 2017](https://openreview.net/pdf?id=SJGCiw5gl)]
     - Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, Jan Kautz
     - 2016-11-05
@@ -142,5 +139,8 @@
 	- 2016-10-31 (v1)
 - Soft Weight-Sharing for Neural Network Compression [[ICLR 2017](https://arxiv.org/pdf/1702.04008)]
     - Karen Ullrich, Edward Meeds, Max Welling
+- QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
+    - Tapabrata Ghosh
+    - 2017-01-09 (v1), 2017-01-12 (v2)
 
 
