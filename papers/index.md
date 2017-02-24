@@ -1,6 +1,5 @@
-# Pruning
+# Deep Compression
 
-### Deep Compression
 - Learning both Weights and Connections for Efficient Neural Networks [[NIPS 2015](https://arxiv.org/abs/1506.02626)] [[notes](pruning/deep-compression/test.txt)]
 	- Song Han, Jeff Pool, John Tran, William J. Dally
 	- 2015-06-08 (v1), 2015-10-30 (v3)
