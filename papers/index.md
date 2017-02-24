@@ -23,7 +23,7 @@
 	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
 - [Home of Song Han](https://stanford.edu/~songhan/)
 
-### Sparsity
+# Sparsity
 - Sparse convolutional neural network [CVPR 2015]
 	- sparsity regularization, l1-norm
 - Learning Structured Sparsity in Deep Neural Network [[NIPS 2016](https://arxiv.org/abs/1608.03665)] [[notes](pruning/sparsity/Learning_Structured_Sparsity_in_Deep_Neural_Networks.md)] [[github](https://github.com/wenwei202/caffe/tree/scnn)]
@@ -38,8 +38,6 @@
 - The Power of Sparsity in Convolutional Neural Networks [Google][[arxiv](https://arxiv.org/pdf/1702.06257)]
     - Soravit Changpinyo, Mark Sandler, Andrey Zhmoginov
     - 2017-02-21
-    
-### Others
 - Dynamic Network Surgery for Efficient DNNs [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)] [[notes](pruning/others/Dynamic_Network_Surgery_for_Efficient_DNNs.md)] [[github](https://github.com/yiwenguo/Dynamic-Network-Surgery)]
 	- Yiwen Guo, Anbang Yao, Yurong Chen
 	- 2016-08-16 (v1), 2016-11-10 (v2)
