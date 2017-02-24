@@ -23,7 +23,7 @@
 - [Home of Song Han](https://stanford.edu/~songhan/)
 
 # Sparsity
-- Sparse convolutional neural network [CVPR 2015]
+- Sparse convolutional neural network [[CVPR 2015](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Sparse_Convolutional_Neural_2015_CVPR_paper.pdf)]
 	- sparsity regularization, l1-norm
 - Learning Structured Sparsity in Deep Neural Network [[NIPS 2016](https://arxiv.org/abs/1608.03665)] [[notes](pruning/sparsity/Learning_Structured_Sparsity_in_Deep_Neural_Networks.md)] [[github](https://github.com/wenwei202/caffe/tree/scnn)]
 	- Wei Wen, Chupeng Wu, Yandan Wang, ...
