@@ -50,7 +50,7 @@
 
 # Quantilization
 
-### Fixed-precision
+### Fixed Precision
 - Improving the speed of neural networks on CPUs [Google] [[NIPS 2011's workshop](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/37631.pdf)]
 	- Vincent Vanhoucke, Andrew Senior, Mark Z. Mao
 - On the efficient representation and execution of deep acoustic models [Google] [[Interspeech 2016](https://arxiv.org/abs/1607.04683)]
