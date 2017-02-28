@@ -91,6 +91,12 @@
 - Two-Bit Networks for Deep Learning on Resource-Constrained Embedded Devices [[arxiv](https://arxiv.org/abs/1701.00485)]
 	- Wenjia Meng, Zonghua Gu, Ming Zhang, ...
 	- 2017-01-02 (v1), 2017-01-04 (v2)
+- Low-Precision Batch-Normalized Activations [[arxiv](https://arxiv.org/pdf/1702.08231.pdf)]
+    - Benjamin Graham
+    - 2017-02-27
+- Fixed-point optimization of deep neural networks with adaptive step size retraining [[arxiv](https://arxiv.org/pdf/1702.08171.pdf)]
+    - Sungho Shin, Yoonho Boo, Wonyong Sung
+    - 2017-02-27
 
 ### Others
 - Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
