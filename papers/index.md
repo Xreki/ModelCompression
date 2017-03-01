@@ -47,6 +47,9 @@
 - The Incredible Shrinking Neural Network: New Prespectives on Learning Representations Through The Lens of Pruning [[arxiv](https://arxiv.org/abs/1701.04465)]
 	- Nikolas Wolfe, Aditya Sharma, Lukas Drude, ...
 	- 2017-01-16 (v1)
+- Enabling Sparse Winograd Convolution by Native Pruning [[arxiv](https://arxiv.org/pdf/1702.08597.pdf)]
+    - Sheng Li, Jongsoo Park, Ping Tak Peter Tang
+    - 2017-03-01
 
 # Quantilization
 
@@ -145,5 +148,8 @@
 - QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
     - Tapabrata Ghosh
     - 2017-01-09 (v1), 2017-01-12 (v2)
+- ShaResNet: Reducing Residual Network Parameter Number by Sharing Weights [[arxiv](https://arxiv.org/pdf/1702.08782.pdf)]
+    - Alexandre Boulch
+    - 2017-03-01
 
 
