@@ -100,7 +100,10 @@
 - Fixed-point optimization of deep neural networks with adaptive step size retraining [[arxiv](https://arxiv.org/pdf/1702.08171.pdf)]
     - Sungho Shin, Yoonho Boo, Wonyong Sung
     - 2017-02-27
-
+- Trained Ternary Quantization [[arxiv](https://arxiv.org/pdf/1612.01064.pdf)]
+    - Chenzhuo Zhu, Song Han, Huizi Mao, William J. Dally
+    - 2017-02-23
+    
 ### Others
 - Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
     - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
