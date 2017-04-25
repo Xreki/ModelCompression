@@ -1,6 +1,5 @@
-# Pruning
+# Deep Compression
 
-### Deep Compression
 - Learning both Weights and Connections for Efficient Neural Networks [[NIPS 2015](https://arxiv.org/abs/1506.02626)] [[notes](pruning/deep-compression/test.txt)]
 	- Song Han, Jeff Pool, John Tran, William J. Dally
 	- 2015-06-08 (v1), 2015-10-30 (v3)
@@ -23,7 +22,7 @@
 	- [Deep Compression and EIE](https://web.stanford.edu/class/ee380/Abstracts/160106-slides.pdf)
 - [Home of Song Han](https://stanford.edu/~songhan/)
 
-### Sparsity
+# Sparsity
 - Sparse Convolutional Neural Network [[CVPR 2015](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Sparse_Convolutional_Neural_2015_CVPR_paper.pdf)]
 	- Baoyuan Liu, Min Wang, Hassan Foroosh, ...
 	- sparsity regularization, l1-norm
@@ -36,25 +35,26 @@
     - 2016-11-04
     - Pruning CNNs; AlexNet: 7.3x on Intel Atom; 3.4x on Intel Xeon; 3.1x on Knights Landing; non-zero proportion 0.09; no accuracy drop
     - [Homepage of Jongsoo Park](https://sites.google.com/site/jongsoopark/home)
-
-### Others
+- The Power of Sparsity in Convolutional Neural Networks [Google][[arxiv](https://arxiv.org/pdf/1702.06257)]
+    - Soravit Changpinyo, Mark Sandler, Andrey Zhmoginov
+    - 2017-02-21
 - Dynamic Network Surgery for Efficient DNNs [Intel] [[NIPS 2016](https://arxiv.org/abs/1608.04493)] [[notes](pruning/others/Dynamic_Network_Surgery_for_Efficient_DNNs.md)] [[github](https://github.com/yiwenguo/Dynamic-Network-Surgery)]
 	- Yiwen Guo, Anbang Yao, Yurong Chen
 	- 2016-08-16 (v1), 2016-11-10 (v2)
 	- compress the number of parameters: LeNet-5, 108x; AlexNet, 17.7x; without any accuracy loss
-- QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
-    - Tapabrata Ghosh
-    - 2017-01-09 (v1), 2017-01-12 (v2)
 - Pruning Convolutional Neural Networks for Resource Efficient Inference [[ICLR 2017](https://openreview.net/pdf?id=SJGCiw5gl)]
     - Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, Jan Kautz
     - 2016-11-05
 - The Incredible Shrinking Neural Network: New Prespectives on Learning Representations Through The Lens of Pruning [[arxiv](https://arxiv.org/abs/1701.04465)]
 	- Nikolas Wolfe, Aditya Sharma, Lukas Drude, ...
 	- 2017-01-16 (v1)
+- Enabling Sparse Winograd Convolution by Native Pruning [[arxiv](https://arxiv.org/pdf/1702.08597.pdf)]
+    - Sheng Li, Jongsoo Park, Ping Tak Peter Tang
+    - 2017-03-01
 
 # Quantilization
 
-### Fixed-precision
+### Fixed Precision
 - Improving the speed of neural networks on CPUs [Google] [[NIPS 2011's workshop](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/37631.pdf)]
 	- Vincent Vanhoucke, Andrew Senior, Mark Z. Mao
 - On the efficient representation and execution of deep acoustic models [Google] [[Interspeech 2016](https://arxiv.org/abs/1607.04683)]
@@ -95,7 +95,16 @@
 - Two-Bit Networks for Deep Learning on Resource-Constrained Embedded Devices [[arxiv](https://arxiv.org/abs/1701.00485)]
 	- Wenjia Meng, Zonghua Gu, Ming Zhang, ...
 	- 2017-01-02 (v1), 2017-01-04 (v2)
-
+- Low-Precision Batch-Normalized Activations [[arxiv](https://arxiv.org/pdf/1702.08231.pdf)]
+    - Benjamin Graham
+    - 2017-02-27
+- Fixed-point optimization of deep neural networks with adaptive step size retraining [[arxiv](https://arxiv.org/pdf/1702.08171.pdf)]
+    - Sungho Shin, Yoonho Boo, Wonyong Sung
+    - 2017-02-27
+- Trained Ternary Quantization [[arxiv](https://arxiv.org/pdf/1612.01064.pdf)]
+    - Chenzhuo Zhu, Song Han, Huizi Mao, William J. Dally
+    - 2017-02-23
+    
 ### Others
 - Towards the Limit of Network Quantization [[ICLR 2017](https://openreview.net/pdf?id=rJ8uNptgl)]
     - Yoojin Choi, Mostafa El-Khamy, Jungwon Lee
@@ -116,6 +125,9 @@
 - CP-decomposition with Tensor Power Method for Convolutional Neural Networks Compression [[BigComp 2017](https://arxiv.org/abs/1701.07148)]
 	- Marcella Astrid, Seung-lk Lee
 	- 2017-01-25 (v1)
+- Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications [[arixv](https://arxiv.org/abs/1511.06530)]
+    - Yong-Deok Kim, Eunhyeok Park, Sungjoo Yoo, Taelim Choi, Lu Yang, Dongjun Shin
+    - 2016-02-24 (v2)
 
 # Others
 - DeepRebirth: A General Approach for Accelerating Deep Neural Network Execution on Mobile Devices [[ICLR 2017](https://openreview.net/pdf?id=SkwSJ99ex)]
@@ -140,3 +152,9 @@
 - MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [Google][[arxiv](https://arxiv.org/abs/1704.04861)]
 	- Andrew G. Howard, Menglong Zhu, Bo Chen, ...
 	- 2017-04-17 (v1)
+- QuickNet: Maximizing Efficiency and Efficacy in Deep Architectures [[arxiv](https://arxiv.org/abs/1701.02291)]
+    - Tapabrata Ghosh
+    - 2017-01-09 (v1), 2017-01-12 (v2)
+- ShaResNet: Reducing Residual Network Parameter Number by Sharing Weights [[arxiv](https://arxiv.org/pdf/1702.08782.pdf)]
+    - Alexandre Boulch
+    - 2017-03-01
