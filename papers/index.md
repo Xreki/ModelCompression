@@ -24,7 +24,8 @@
 - [Home of Song Han](https://stanford.edu/~songhan/)
 
 ### Sparsity
-- Sparse convolutional neural network [CVPR 2015]
+- Sparse Convolutional Neural Network [[CVPR 2015](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Sparse_Convolutional_Neural_2015_CVPR_paper.pdf)]
+	- Baoyuan Liu, Min Wang, Hassan Foroosh, ...
 	- sparsity regularization, l1-norm
 - Learning Structured Sparsity in Deep Neural Network [[NIPS 2016](https://arxiv.org/abs/1608.03665)] [[notes](pruning/sparsity/Learning_Structured_Sparsity_in_Deep_Neural_Networks.md)] [[github](https://github.com/wenwei202/caffe/tree/scnn)]
 	- Wei Wen, Chupeng Wu, Yandan Wang, ...
@@ -136,5 +137,6 @@
 	- 2016-10-31 (v1)
 - Soft Weight-Sharing for Neural Network Compression [[ICLR 2017](https://arxiv.org/pdf/1702.04008)]
     - Karen Ullrich, Edward Meeds, Max Welling
-
-
+- MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [Google][[arxiv](https://arxiv.org/abs/1704.04861)]
+	- Andrew G. Howard, Menglong Zhu, Bo Chen, ...
+	- 2017-04-17 (v1)
